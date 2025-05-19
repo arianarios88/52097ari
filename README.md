@@ -6,7 +6,7 @@ Antes de ejecutar este proyecto, asegurate de tener instalado:
 - Node.js  
 - Java JDK  
 - Git  
-- ANTLR 4.13.2 (que lo instalaremos desde el mismo Visual Studio Code)
+- ANTLR 4.13.2 (que lo instalaremos desde el mismo Visual Studio Code).
 
 Si ya tenemos todo esto instalado, podemos proceder a ejecutar el programa. 
 
@@ -84,4 +84,6 @@ Resultado: 6
 
 
 Si este es el output que la consola muestra, esta todo correctamente ejecutado.
+
+Puedes probar los otros inputs realizando los mismos pasos. 
 
