@@ -19,13 +19,21 @@ Permite declarar variables, hacer operaciones, imprimir por consola y usar estru
 
 ## Cómo abrir el repositorio
 
-1. Cloná el repositorio:
+Abrí una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador.
 
-```bash
+Elegí una carpeta donde querés guardar el proyecto (por ejemplo: Documentos).
+Para crear esta carpeta en la terminal, escribimos el comando "md (nombre que le quieras poner", luego de esto para cambiar a nuestro archivo pondemos: "cd (nombre del archivo creado".
+
+
+Despues cloná el repositorio:
+
+Escribe:
 git clone https://github.com/arianarios88/52097.git
+Y luego:
 cd 52097
+Finalmente ponemos "code ."
 
-Luego de esto nos abrira el Visual Estudio con todo nuestro repositorio. Nos iremos al archivo input donde pegaremos el input dorrecto 1:
+Luego de esto nos abrira el Visual Estudio con todo nuestro repositorio. Nos iremos al archivo input donde pegaremos el input correcto 1:
 
 variar x desde 1 hasta 5 con paso 1 hacer
     x <- x + 1
@@ -33,7 +41,9 @@ variar x desde 1 hasta 5 con paso 1 hacer
 fin_variar
 
 
-Luego de esto corremos el programa con F5, y con ctrl + ñ nos abrira la terminal, donde nos daran la tabla de lexemas, arbol de derivacion y resultado escribiendo el comando "node index.js", esta entrada deberia mostrarnos el siguiente resultado:
+Y corremos el programa con F5.
+
+Presionamos ctrl + ñ que nos abrira la terminal, donde nos daran la tabla de lexemas y tokens, arbol de derivacion y resultado, para esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
 
 Tabla de Tokens y Lexemas:
 --------------------------------------------------
@@ -73,5 +83,5 @@ Asignación: x = 6
 Resultado: 6
 
 
-y listo, ya corrimos el programa.
+Si este es el output que la consola muestra, esta todo correctamente ejecutado.
 
