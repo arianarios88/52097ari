@@ -39,6 +39,9 @@ variar x desde 1 hasta 5 con paso 1 hacer
     escribir x
 fin_variar
 
+---
+
+## Resultado esperado
 
 Y corremos el programa con F5.Presionamos ctrl + ñ que nos abrira la terminal del VS,en  este apartado se nos mostrará la tabla de lexemas y tokens, arbol de derivación y resultado esperado de la gramatica, para esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
 
