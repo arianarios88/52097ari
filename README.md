@@ -6,7 +6,9 @@ Antes de ejecutar este proyecto, asegurate de tener instalado:
 - Node.js  
 - Java JDK  
 - Git  
-- ANTLR 4.13.2
+- ANTLR 4.13.2 (que lo instalaremos desde el mismo Visual Studio Code)
+
+Si ya tenemos todo esto instalado, podemos proceder a ejecutar el programa. 
 
 ---
 
@@ -19,21 +21,18 @@ Permite declarar variables, hacer operaciones, imprimir por consola y usar estru
 
 ## Cómo abrir el repositorio
 
-Abrí una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador.
+Abrí una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador. Preferentemente utiliza "Símbolo del Sistema".
 
 Elegí una carpeta donde querés guardar el proyecto (por ejemplo: Documentos).
-Para crear esta carpeta en la terminal, escribimos el comando "md (nombre que le quieras poner", luego de esto para cambiar a nuestro archivo pondemos: "cd (nombre del archivo creado".
+Para crear esta carpeta en la terminal que hayaselegido, escribimos el comando "md (nombre que le quieras poner al archivo) y luego de esto para cambiar al archivo creado pondremos: "cd (nombre del archivo creado", que nos posicionar en dicha carpeta.
 
-
-Despues cloná el repositorio:
-
-Escribe:
+Despues cloná el repositorio del siguiente modo, en la misma terminal donde hemos realizado todo escribe:
 git clone https://github.com/arianarios88/52097.git
-Y luego:
+Luego:
 cd 52097
 Finalmente ponemos "code ."
 
-Luego de esto nos abrira el Visual Estudio con todo nuestro repositorio. Nos iremos al archivo input donde pegaremos el input correcto 1:
+Esto nos abrira el Visual Estudio con todo nuestro repositorio clonado. Nos iremos al archivo input donde pegaremos el input correcto 1 (previamente copiado), dicho archivo nos aparece en el repositorio que hemos abierto:
 
 variar x desde 1 hasta 5 con paso 1 hacer
     x <- x + 1
@@ -41,9 +40,7 @@ variar x desde 1 hasta 5 con paso 1 hacer
 fin_variar
 
 
-Y corremos el programa con F5.
-
-Presionamos ctrl + ñ que nos abrira la terminal, donde nos daran la tabla de lexemas y tokens, arbol de derivacion y resultado, para esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
+Y corremos el programa con F5.Presionamos ctrl + ñ que nos abrira la terminal del VS,en  este apartado se nos mostrará la tabla de lexemas y tokens, arbol de derivación y resultado esperado de la gramatica, para esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
 
 Tabla de Tokens y Lexemas:
 --------------------------------------------------
